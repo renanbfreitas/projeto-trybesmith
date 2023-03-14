@@ -20,3 +20,19 @@ export interface JwtConfig {
   expiresIn: string
   algorithm: string
 }
+
+export interface Prod {
+  id: number
+  userId: number
+  productsIds: number[]
+}
+
+export interface UserLogin {
+  username: string
+  password: string
+}
+
+export interface UserToken {
+  id?: number
+  username?: string
+}

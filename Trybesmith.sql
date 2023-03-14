@@ -53,3 +53,9 @@ VALUES
   ("Adaga de Aço Valírico", "1 peça de ouro", 2),
   ("Colar de fogo", "1 peça de ouro", 2),
   ("Engenhoca aleatória", "15 peças de ouro", 3);
+
+SELECT ord.id, ord.user_id AS userId, JSON_ARRAYAGG(prod.id) AS productsIds 
+      FROM Trybesmith.orders AS ord 
+      INNER JOIN Trybesmith.products AS prod 
+      WHERE prod.order_id = ord.id 
+      GROUP BY ord.id
