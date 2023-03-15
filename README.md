@@ -1,13 +1,22 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<div align="center">
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+<img src="https://img.shields.io/static/v1?label=Projeto&message=Trybesmith&color=orange&style=for-the-badge&logo=github"/>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+---   
+
+<img src="https://img.shields.io/static/v1?label=Objetivo&message=Contexto&color=blue&style=for-the-badge&logo=github"/>
+<p></p>
+
+Neste projeto você vai desenvolver uma loja de itens medievais, no formato de uma API, utilizando Typescript.
+
+Você irá desenvolver todas as camadas da aplicação (Models, Service e Controllers) em seu código e, por meio dessa aplicação, será possível realizar as operações básicas que se pode fazer em um determinado banco de dados: Criação, Leitura, Atualização e Exclusão (ou CRUD, para as pessoas mais íntimas stuck_out_tongue_winking_eye - Create, Read, Update e Delete).
+
+Você irá criar alguns endpoints que irão ler e escrever em um banco de dados, utilizando o MySQL.
+
+---   
+<div align="center">
+<img src="https://img.shields.io/static/v1?label=Habilidades Aprendidas&message=Ferramentas e Tecnologias&color=red&style=for-the-badge&logo=github"/>
+<p></p>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original-wordmark.svg" width="60" height="60"//>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" width="60" height="60"//>
+</div>
